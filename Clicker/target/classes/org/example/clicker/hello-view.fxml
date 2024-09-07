@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="312.0" prefWidth="910.0" spacing="20.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.clicker.Gui">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="Cheeck" alignment="CENTER" layoutX="-1.0" layoutY="23.0" prefHeight="33.0" prefWidth="200.0" text="0" AnchorPane.bottomAnchor="129.33333333333331" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="23.0">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Button layoutX="72.0" layoutY="139.0" mnemonicParsing="false" onAction="#ButtonClick" prefHeight="25.0" prefWidth="725.0" text="Click" AnchorPane.bottomAnchor="41.0" AnchorPane.topAnchor="139.0" />
+            <Button fx:id="ButtonClick" layoutX="745.0" layoutY="27.0" mnemonicParsing="false" onAction="#Button_lvl" prefHeight="35.0" prefWidth="118.0" text="50 coin =  lvl up" AnchorPane.bottomAnchor="143.33333333333331" AnchorPane.topAnchor="27.0" />
+            <Label layoutX="330.0" layoutY="28.0" prefHeight="17.0" prefWidth="87.0" text="Coin" AnchorPane.bottomAnchor="134.66666666666666" AnchorPane.leftAnchor="330.0" AnchorPane.rightAnchor="452.6666666666667" AnchorPane.topAnchor="28.0">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
